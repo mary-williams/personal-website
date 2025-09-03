@@ -58,14 +58,14 @@ const projects = [
   {
     title: "Communication App",
     description:
-      "An app to streamline multiple communication apps like Stack, Discord, GroupMe, Remind into one simple app to simplify student's lives.",
+      "An app prototype to streamline multiple communication apps like Stack, Discord, GroupMe, Remind into one app to organize student's messages.",
     tech: ["React", "API"],
     link: "https://github.com/mary-williams/Message-App",
   },
   {
     title: "Book App",
     description:
-      "A social book app, an improved version of Goodreads, with added features and modern design.",
+      "Redesigning the popular reading app Goodreads with a modern interface and new features, like labeling books as physically owned, so users can borrow amongst themselves.",
     tech: ["Figma"],
     link: null,
   },

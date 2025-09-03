@@ -82,40 +82,39 @@ function HomePage() {
             <h5 style={{ color: accent }}>What I'm Currently Working On</h5>
             <i>
               {" "}
-              I get excited about new projects and spend my time
-              across these: {" "}
+              I get excited about new projects and spend my time across these:{" "}
             </i>
             <div className="row g-3 mt-1 current-work">
+              <div className="col-md-6 col-12">
+                <InfoBox size="medium" header="Book App Design">
+                  {
+                    <p style={{ fontSize: "17px" }}>
+                      Redesigning the popular reading app Goodreads with a
+                      modern interface. Creating new features like labeling
+                      books as physically owned, so users can borrow amongst
+                      themselves.{" "}
+                    </p>
+                  }
+                </InfoBox>
+              </div>
+              <div className="col-md-6 col-12">
+                <InfoBox size="medium" header="Mobile App Prototype">
+                  {
+                    <p style={{ fontSize: "17px" }}>
+                      An app prototype to streamline communication apps such as
+                      Discord, Slack, Remind, GroupMe into one, making it easier
+                      for students to stay organized on communications.
+                    </p>
+                  }
+                </InfoBox>
+              </div>
               <div className="col-md-6 col-12" style={{ color: "black" }}>
-                <InfoBox size="medium" header="Site of Sites">
+                <InfoBox size="medium" header="Photo Web App">
                   {
                     <p style={{ fontSize: "17px" }}>
-                      A website that gathers and displays unique indie websites
-                      for users to explore. Sites range in theme from music
-                      discovery to reading place recommendations.{" "}
-                    </p>
-                  }
-                </InfoBox>
-              </div>
-              <div className="col-md-6 col-12">
-                <InfoBox size="medium" header="Mobile App">
-                  {
-                    <p style={{ fontSize: "17px" }}>
-                      React Native mobile app to streamline communication apps
-                      such as Discord, Slack, Remind, GroupMe into one, making
-                      it easier for students to stay organized.
-                    </p>
-                  }
-                </InfoBox>
-              </div>
-              <div className="col-md-6 col-12">
-                <InfoBox size="medium" header="Improved Goodreads">
-                  {
-                    <p style={{ fontSize: "17px" }}>
-                      Taking inspiration from the popular reading app,
-                      Goodreads, and creating a more modern design with extra
-                      features like labeling books as physically owned, so users
-                      can borrow amongst themselves.{" "}
+                      A web app that supports multiple users in uploading,
+                      deleting, browsing, and tagging photos. Users can search
+                      photos based on tags and view photos in a slideshow.{" "}
                     </p>
                   }
                 </InfoBox>

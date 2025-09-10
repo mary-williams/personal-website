@@ -8,7 +8,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FiMapPin } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 import "./ContactPage.css";
-import { black, lightAccent, accent } from "../assets/colors";
+import { black, lightAccent, accent, gray } from "../assets/colors";
 
 const aboutMeArr = [
   <>
@@ -35,32 +35,7 @@ function HomePage() {
 
   return isMobile ? (
     // Mobile layout
-    <div className="container-phone py-4">
-      <div className="mb-4" style={{ textAlign: "center", maxWidth: "400px" }}>
-        <img
-          src="/profile.jpg"
-          alt="My Picture!"
-          className="img-fluid rounded-4"
-        />
-      </div>
-      <TypingHeading text="Hi, I'm Mary" className="mb-3" speed={80} />{" "}
-      <h1 className="subtitle">an aspiring Software Developer</h1>
-      <div className="title-underline"></div>
-      <InfoBox size="large" header="Me">
-        {aboutMe1}
-      </InfoBox>
-      <InfoBox size="large" header="In the Future">
-        {aboutMe3}
-      </InfoBox>
-      <InfoBox size="large" header='My "Why"'>
-        {aboutMe4}
-      </InfoBox>
-      <InfoBox size="large" header="Hobbies">
-        {aboutMe5}
-      </InfoBox>
-      <MusicPlayer />
-      <Photos />
-    </div>
+    <HomePageMobile aboutMeArr={aboutMeArr} />
   ) : (
     // Desktop/laptop layout
     <div className="container-fluid py-4">
@@ -268,7 +243,7 @@ function HomePage() {
                       style={{
                         fontSize: "12px",
                         fontWeight: "500",
-                        color: "rgb(115, 115, 115)",
+                        color: gray,
                       }}
                     >
                       EMAIL
@@ -298,7 +273,7 @@ function HomePage() {
                       style={{
                         fontSize: "12px",
                         fontWeight: "500",
-                        color: "rgb(115, 115, 115)",
+                        color: gray,
                       }}
                     >
                       LOCATION

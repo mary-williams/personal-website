@@ -7,10 +7,18 @@ body,
 #root {
   font-family: "GeneralSans-Variable", sans-serif;
   min-height: 100vh;
+  background-image: url(../weird.jpeg);
+  background-size:cover; 
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#root {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f5f4f4;
 }
+
 .current-work .info-box-header {
   color: rgba(125, 65, 168, 0.93);
 }

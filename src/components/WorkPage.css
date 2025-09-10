@@ -37,7 +37,7 @@
 }
 
 .project-link:hover {
-  box-shadow: 0 4px 16px rgba(176, 35, 241, 0.224);
+  box-shadow: 0 4px 16px rgba(176, 35, 241, 0.454);
   transform: translateY(-2px) scale(1.02);
 }
 
@@ -48,7 +48,7 @@
 
 .resume-date {
   font-size: 0.95rem;
-  color: #888;
+  color: #605964;
   margin-bottom: 0.5rem;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .tech-tag {
-  background: rgba(228, 200, 248, 0.93);
+  background: rgba(143, 61, 231, 0.505);
   color: #333;
   border-radius: 1rem;
   padding: 0.2rem 0.8rem;

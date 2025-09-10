@@ -52,14 +52,14 @@ const projects = [
     title: "NASA APOD Slack Bot",
     description:
       'Creates a Slack bot that will send NASA\'s "A Picture Of the Day" everyday.',
-    tech: ["Python", "AWS", "API"],
+    tech: ["Python", "AWS Lambda", "API"],
     link: "https://github.com/mary-williams/nasa_apod",
   },
   {
     title: "Communication App",
     description:
       "An app prototype to streamline multiple communication apps like Stack, Discord, GroupMe, Remind into one app to organize student's messages.",
-    tech: ["React", "API"],
+    tech: ["Expo", "React Native", "Figma"],
     link: "https://github.com/mary-williams/Message-App",
   },
   {

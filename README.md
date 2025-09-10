@@ -2,7 +2,7 @@
 
 A modern personal website built with React.js, Bootstrap, and Firebase.
 
-[Click Here To See!](https://marywillivms.web.app/work)  
+[Click Here To See!](https://marywillivms.web.app)  
 
 ## 🛠️ Technologies
 

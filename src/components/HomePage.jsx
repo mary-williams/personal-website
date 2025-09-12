@@ -9,6 +9,7 @@ import { FiMapPin } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 import "./ContactPage.css";
 import { black, lightAccent, accent, gray } from "../assets/colors";
+import HomePageMobile from "./HomePageMobile";
 
 const aboutMeArr = [
   <>

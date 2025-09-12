@@ -29,7 +29,7 @@ function HomePageMobile({ aboutMeArr }) {
             style={{
               fontSize: "26px",
               fontWeight: "normal",
-              color: "rgb(88, 87, 87)",
+              color: gray,
             }}
           >
             Mary Williams
@@ -103,7 +103,7 @@ function HomePageMobile({ aboutMeArr }) {
               <br />
               <a
                 href="mailto:marywilliams@utexas.edu"
-                style={{ color: black, textDecoration: "none" }}
+                style={{ color: "#f5f5f5", textDecoration: "none" }}
               >
                 marywilliams@utexas.edu
               </a>
@@ -151,21 +151,21 @@ function HomePageMobile({ aboutMeArr }) {
         <i>I get excited about new projects and spend my time across these:</i>
         <div className="current-work mt-2">
           <InfoBox size="medium" header="Book App Design">
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "16px", marginBottom: "1.5rem"}}>
               Redesigning the popular reading app Goodreads with a modern
               interface. Creating new features like labeling books as physically
               owned, so users can borrow amongst themselves.
             </p>
           </InfoBox>
           <InfoBox size="medium" header="Mobile App Prototype">
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
               An app prototype to streamline communication apps such as Discord,
               Slack, Remind, GroupMe into one, making it easier for students to
               stay organized on communications.
             </p>
           </InfoBox>
           <InfoBox size="medium" header="Photo Web App">
-            <p style={{ fontSize: "16px" }}>
+            <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
               A web app that supports multiple users in uploading, deleting,
               browsing, and tagging photos. Users can search photos based on
               tags and view photos in a slideshow.
@@ -182,7 +182,7 @@ function HomePageMobile({ aboutMeArr }) {
 
       {/*Projects Section */}
       <InfoBox size="large" style={{ marginBottom: "1.5rem" }}>
-        <h5 style={{ color: accent }}>Previous Projects</h5>
+        <h5 style={{ color: "#ffe066" }}>Previous Projects</h5>
         <div
           className="hover-effect"
           style={{

@@ -48,7 +48,7 @@
 
 .resume-date {
   font-size: 0.95rem;
-  color: #605964;
+  color: #b6b6b8;
   margin-bottom: 0.5rem;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .tech-tag {
-  background: rgba(143, 61, 231, 0.505);
+  background: rgba(252, 244, 136, 0.808);
   color: #333;
   border-radius: 1rem;
   padding: 0.2rem 0.8rem;

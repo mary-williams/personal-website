@@ -44,12 +44,12 @@ const projects = [
   {
     title: "Personal Website",
     description:
-      "A responsive React portfolio site to showcase my work and contact info. Your here now!",
+      "A responsive React portfolio site to showcase my work and contact info. You're here now!",
     tech: ["React", "Bootstrap", "Firebase"],
     link: "https://github.com/mary-williams/marywilliams",
   },
   {
-    title: "NASA APOD Slack Bot",
+    title: "AWS Serverless Slack Bot",
     description:
       'Creates a Slack bot that will send NASA\'s "A Picture Of the Day" everyday.',
     tech: ["Python", "AWS Lambda", "API"],

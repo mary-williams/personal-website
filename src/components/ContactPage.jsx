@@ -2,7 +2,7 @@ import "./ContactPage.css";
 import InfoBox from "./InfoBox.jsx";
 import { FiExternalLink } from "react-icons/fi";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { accent } from "../assets/colors";
+import { gray, accent } from "../assets/colors";
 
 function ContactPage() {
   return (
@@ -10,10 +10,10 @@ function ContactPage() {
       <div className="row justify-content-center">
         <div className="col-12 col-md-8">
           <div className="contact-left">
-            <div className="title mb-3">
+            <div className="title mb-3" style={{ color: gray }}>
               <h1>Contact Me</h1>
             </div>
-            <div className="subtext mb-4 ">
+            <div className="subtext mb-4 " style={{ color: gray }}>
               <p>Send me a message and I'll get back to you soon!</p>
             </div>
             <div className="info-boxes d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center">

@@ -7,8 +7,8 @@ body,
 #root {
   font-family: "GeneralSans-Variable", sans-serif;
   min-height: 100vh;
-  background-image: url(../weird.jpeg);
-  background-size:cover; 
+  background-image: url(../orange.jpeg);
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
@@ -17,10 +17,6 @@ body,
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.current-work .info-box-header {
-  color: rgba(125, 65, 168, 0.93);
 }
 
 .container-phone .subtitle {
@@ -40,8 +36,8 @@ body,
   height: 5px;
   background: linear-gradient(
     90deg,
-    rgba(125, 65, 168, 0.93),
-    rgba(210, 156, 248, 0.93)
+    rgba(251, 218, 86, 0.93),
+    rgba(255, 241, 186, 0.93)
   );
   width: 8%;
   border-radius: 4px;
@@ -52,9 +48,9 @@ body,
 .sticky-top .title-underline {
   background: linear-gradient(
     90deg,
-    rgba(125, 65, 168, 0.93),
-    rgba(210, 156, 248, 0.93),
-    rgba(125, 65, 168, 0.93)
+    rgba(251, 218, 86, 0.93),
+    rgba(251, 230, 147, 0.93),
+    rgba(251, 218, 86, 0.93)
   );
 }
 

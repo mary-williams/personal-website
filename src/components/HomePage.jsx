@@ -84,7 +84,7 @@ function HomePage() {
                   }
                 </InfoBox>
               </div>
-              <div className="col-md-6 col-12" style={{ color: "black" }}>
+              <div className="col-md-6 col-12">
                 <InfoBox size="medium" header="Photo Web App">
                   {
                     <p style={{ fontSize: "17px" }}>
@@ -179,7 +179,7 @@ function HomePage() {
                   style={{
                     fontSize: "30px",
                     fontWeight: "normal",
-                    color: "rgb(88, 87, 87)",
+                    color: gray,
                   }}
                 >
                   Mary Williams
@@ -187,16 +187,20 @@ function HomePage() {
 
                 <div
                   style={{
-                    background: "rgba(255, 255, 255, 0.25)",
-                    borderRadius: "1rem",
-                    backdropFilter: "blur(19px)",
-                    WebkitBackdropFilter: "blur(12px)",
-                    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.15)",
-                    padding: "0.2rem",
-                    maxWidth: "170px",
-                    width: "100%",
+                    background: "rgba(255, 255, 255, 0.033)",
+                    borderRadius: "1.5rem",
+                    padding: "1rem",
+                    paddingTop: "0.7rem",
+                    paddingBottom: "0.7rem",
+                    boxShadow: "0 3px 10px rgba(0, 0, 0, 0.15)",
+                    backdropFilter: "blur(4px)",
+                    WebkitBackdropFilter: "blur(4px)",
+                    border: "1px solid rgba(255, 255, 255, 0.35)",
+                    width: "auto",
+                    maxWidth: "200px", 
+                    alignItems: "center",
+                    justifyContent: "center",
                     margin: "0 auto",
-                    textAlign: "center",
                   }}
                 >
                   <h1
@@ -205,7 +209,7 @@ function HomePage() {
                       textAlign: "center",
                       fontWeight: "normal",
                       paddingTop: "0.3rem",
-                      color: accent,
+                      color: gray,
                     }}
                   >
                     Software Developer
@@ -252,7 +256,7 @@ function HomePage() {
                     <br />
                     <a
                       href="mailto:marywilliams@utexas.edu"
-                      style={{ color: black, textDecoration: "none" }}
+                      style={{ color: "white", textDecoration: "none" }}
                     >
                       marywilliams@utexas.edu
                     </a>
@@ -280,7 +284,7 @@ function HomePage() {
                       LOCATION
                     </span>
                     <br />
-                    <a style={{ color: black }}>Austin, TX</a>
+                    <a style={{ color: "white" }}>Austin, TX</a>
                   </div>
                 </div>
               </div>

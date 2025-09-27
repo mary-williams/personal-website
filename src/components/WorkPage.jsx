@@ -45,28 +45,28 @@ const projects = [
     title: "Personal Website",
     description:
       "A responsive React portfolio site to showcase my work and contact info. You're here now!",
-    tech: ["React", "Bootstrap", "Firebase"],
+    tech: ["React", "Bootstrap", "Firebase", "NodeJS"],
     link: "https://github.com/mary-williams/marywilliams",
   },
   {
     title: "AWS Serverless Slack Bot",
     description:
-      'Creates a Slack bot that will send NASA\'s "A Picture Of the Day" everyday.',
-    tech: ["Python", "AWS Lambda", "API"],
+      'Creates a Slack bot that will utilize NASA\'s "A Picture Of the Day" API to post their new image and description everyday.',
+    tech: ["Python", "AWS Lambda", "REST API"],
     link: "https://github.com/mary-williams/nasa_apod",
   },
   {
-    title: "Communication App",
+    title: "Communication App Prototype",
     description:
       "An app prototype to streamline multiple communication apps like Stack, Discord, GroupMe, Remind into one app to organize student's messages.",
     tech: ["Expo", "React Native", "Figma"],
     link: "https://github.com/mary-williams/Message-App",
   },
   {
-    title: "Book App",
+    title: "PintOS Operating System",
     description:
-      "Redesigning the popular reading app Goodreads with a modern interface and new features, like labeling books as physically owned, so users can borrow amongst themselves.",
-    tech: ["Figma"],
+      "Implemented core OS components like thread scheduling, system call handling, file systems, and virtual memory management, to build a fully functional OS in C.",    
+    tech: ["C", "GDB", "Git"],
     link: null,
   },
 ];

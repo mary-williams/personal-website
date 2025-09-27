@@ -12,13 +12,10 @@ import { black, lightAccent, accent, gray } from "../assets/colors";
 import HomePageMobile from "./HomePageMobile";
 
 const aboutMeArr = [
-  <>
-    🤘 I currently attend the University of Texas at Austin as a Computer
-    Science student. <br />I anticipate to graduate May 2027!
-  </>,
+  "🤘 I currently attend the University of Texas at Austin as a Computer Science student and anticipate to graduate May 2027! I enjoy writing software that has beneficial impact and great design.",
   "🎓 After graduating, I aim to secure a role in a company where I can contribute to impactful projects, grow in a supportive, diverse community, and help shape the future of technology.",
   "⚖️  I’m driven by the desire to inspire future generations of creatives and lead positive change through technology. I’m passionate about the ethical responsibilities of developers and want to ensure that technology is developed with integrity and social good in mind.",
-  "🌱 Whenever I have free time I like to read (typically fiction), take photos on my Fujifim XT4 or Olympus film camera, discover new music, explore new hobbies, and anything involving getting outside.",
+  "🌱 Whenever I have free time I like to read (typically fiction), take photos on my Fujifim XT4 or Olympus film camera, discover new music, explore new hobbies, and exploring Austin.",
 ];
 
 function useIsMobile() {
@@ -55,31 +52,22 @@ function HomePage() {
             <div className="mb-3">{aboutMeArr[1]}</div>
             <div className="mb-3">{aboutMeArr[2]}</div>
             <div className="mb-4">{aboutMeArr[3]}</div>
-            <h5 style={{ color: accent }}>What I'm Currently Working On</h5>
+            <h5 style={{ color: accent, marginTop: "2.5rem" }}>
+              What I'm Currently Working On
+            </h5>
             <i>
               {" "}
-              I get excited about new projects and spend my time across these:{" "}
+              I get excited about new personal projects and currently spend my time between these:{" "}
             </i>
             <div className="row g-3 mt-1 current-work">
               <div className="col-md-6 col-12">
-                <InfoBox size="medium" header="Book App Design">
+                <InfoBox size="medium" header="Social Book App">
                   {
                     <p style={{ fontSize: "17px" }}>
-                      Redesigning the popular reading app Goodreads with a
-                      modern interface. Creating new features like labeling
+                      Currently redesigning the popular reading app Goodreads
+                      with a modern interface and new features like labeling
                       books as physically owned, so users can borrow amongst
                       themselves.{" "}
-                    </p>
-                  }
-                </InfoBox>
-              </div>
-              <div className="col-md-6 col-12">
-                <InfoBox size="medium" header="Mobile App Prototype">
-                  {
-                    <p style={{ fontSize: "17px" }}>
-                      An app prototype to streamline communication apps such as
-                      Discord, Slack, Remind, GroupMe into one, making it easier
-                      for students to stay organized on communications.
                     </p>
                   }
                 </InfoBox>
@@ -88,27 +76,16 @@ function HomePage() {
                 <InfoBox size="medium" header="Photo Web App">
                   {
                     <p style={{ fontSize: "17px" }}>
-                      A web app that supports multiple users in uploading,
-                      deleting, browsing, and tagging photos. Users can search
-                      photos based on tags and view photos in a slideshow.{" "}
-                    </p>
-                  }
-                </InfoBox>
-              </div>
-              <div className="col-md-6 col-12">
-                <InfoBox size="medium" header="Privacy Policy Plugin">
-                  {
-                    <p style={{ fontSize: "17px" }}>
-                      {" "}
-                      A web plugin to simplify reading and understanding
-                      policies you agree to online (that you usually skip
-                      reading anyway).
+                      A full stack web app that allows users to upload, delete,
+                      browse, and tag photos. Users can search photos based on
+                      tags and view photos in a slideshow. Currently being Implemented
+                      with React and Flask.{" "}
                     </p>
                   }
                 </InfoBox>
               </div>
             </div>
-            <div style={{ marginTop: "2rem" }}>
+            <div style={{ marginTop: "2.5rem" }}>
               <h5 style={{ color: accent }}>Previous Projects</h5>
               <div
                 className="hover-effect"
@@ -148,7 +125,31 @@ function HomePage() {
                     />
                   </a>
                 </InfoBox>
+                <InfoBox
+                  size="small"
+                  className="info-box"
+                  style={{ flex: 1, textAlign: "center" }}
+                >
+                  <a
+                    href="/contact"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-link"
+                  >
+                    Or lets make something together
+                    <FiExternalLink
+                      style={{ color: accent }}
+                      className="external-icon"
+                      size={18}
+                    />
+                  </a>
+                </InfoBox>
               </div>
+            </div>
+            <div style={{ marginTop: "2.75rem", marginBottom: "2rem", display: "flex", justifyContent: "center"}}>
+              <InfoBox size="small">
+                <Photos/>
+              </InfoBox>
             </div>
           </InfoBox>
         </div>
@@ -197,7 +198,7 @@ function HomePage() {
                     WebkitBackdropFilter: "blur(4px)",
                     border: "1px solid rgba(255, 255, 255, 0.35)",
                     width: "auto",
-                    maxWidth: "200px", 
+                    maxWidth: "200px",
                     alignItems: "center",
                     justifyContent: "center",
                     margin: "0 auto",

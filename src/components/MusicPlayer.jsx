@@ -17,10 +17,10 @@ function MusicPlayer() {
       img: "/albums/Alvvays.jpeg",
     },
     {
-      title: "Persephone",
-      artist: "Yumi Zouma",
-      src: "/music/Yumi Zouma - Persephone.mp3",
-      img: "/albums/Persephone.jpeg",
+      title: "Now and Then",
+      artist: "Sjowgren",
+      src: "/music/sjowgren - now & then.mp3",
+      img: "/albums/now-and-then.jpeg",
     },
     {
       title: "This is the Day",
@@ -35,10 +35,10 @@ function MusicPlayer() {
       img: "/albums/Beastie-Boys-Hot-Sauce-Committee.jpeg",
     },
     {
-      title: "Now and Then",
-      artist: "Sjowgren",
-      src: "/music/sjowgren - now & then.mp3",
-      img: "/albums/now-and-then.jpeg",
+      title: "Persephone",
+      artist: "Yumi Zouma",
+      src: "/music/Yumi Zouma - Persephone.mp3",
+      img: "/albums/Persephone.jpeg",
     },
   ];
   const [current, setCurrent] = useState(0);

@@ -1,5 +1,7 @@
 .music-player {
   margin-bottom: 1rem;
+  max-width: 335px;
+  margin-left: .5rem;
 }
 
 .music-track {
@@ -22,13 +24,13 @@
 }
 
 .music-title {
-  color: #282828;
+  color: rgb(233, 233, 233);
   font-size: medium;
 }
 
 .music-artist {
   font-weight: 300;
-  color: #282828;
+  color: rgb(222, 220, 220);
   font-size: medium;
 }
 

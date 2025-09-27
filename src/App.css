@@ -11,12 +11,17 @@ body,
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  font-size: 18px;
 }
 
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.contact-link{
+  font-size: 17px;
 }
 
 .container-phone .subtitle {

@@ -14,7 +14,7 @@ function HomePageMobile({ aboutMeArr }) {
       <InfoBox
         size="large"
         className="d-flex flex-column align-items-center justify-content-center"
-        style={{ textAlign: "center", marginBottom: "1.5rem" }}
+        style={{ textAlign: "center", marginBottom: "2rem" }}
       >
         <img
           src="/profile.jpg"
@@ -128,14 +128,14 @@ function HomePageMobile({ aboutMeArr }) {
                 LOCATION
               </span>
               <br />
-              <a style={{ color: black }}>Austin, TX</a>
+              <a style={{ color: "#f5f5f5" }}>Austin, TX</a>
             </div>
           </div>
         </div>
       </InfoBox>
 
       {/* About Me Section */}
-      <InfoBox size="large" style={{ marginBottom: "1.5rem" }}>
+      <InfoBox size="large" style={{ marginBottom: "2rem" }}>
         <TypingHeading text="Hi, I'm Mary 👾" className="mb-3" speed={120} />
         <div className="title-underline"></div>
         <h5 style={{ color: accent }}>About Me</h5>
@@ -146,42 +146,32 @@ function HomePageMobile({ aboutMeArr }) {
       </InfoBox>
 
       {/* Current Work Section */}
-      <InfoBox size="large" style={{ marginBottom: "1.5rem" }}>
+      <InfoBox size="large" style={{ marginBottom: "2rem" }}>
         <h5 style={{ color: accent }}>What I'm Currently Working On</h5>
-        <i>I get excited about new projects and spend my time across these:</i>
+        <i>
+          I get excited about new personal projects and currently spend my time
+          between these:
+        </i>
         <div className="current-work mt-2">
-          <InfoBox size="medium" header="Book App Design">
-            <p style={{ fontSize: "16px", marginBottom: "1.5rem"}}>
+          <InfoBox size="medium" header="Book Social App" marginBottom="1rem">
+            <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
               Redesigning the popular reading app Goodreads with a modern
               interface. Creating new features like labeling books as physically
               owned, so users can borrow amongst themselves.
             </p>
           </InfoBox>
-          <InfoBox size="medium" header="Mobile App Prototype">
-            <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
-              An app prototype to streamline communication apps such as Discord,
-              Slack, Remind, GroupMe into one, making it easier for students to
-              stay organized on communications.
-            </p>
-          </InfoBox>
-          <InfoBox size="medium" header="Photo Web App">
+          <InfoBox size="medium" header="Photo Web App" marginBottom="1rem">
             <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
               A web app that supports multiple users in uploading, deleting,
               browsing, and tagging photos. Users can search photos based on
               tags and view photos in a slideshow.
             </p>
           </InfoBox>
-          <InfoBox size="medium" header="Privacy Policy Plugin">
-            <p style={{ fontSize: "16px" }}>
-              A web plugin to simplify reading and understanding policies you
-              agree to online (that you usually skip reading anyway).
-            </p>
-          </InfoBox>
         </div>
       </InfoBox>
 
       {/*Projects Section */}
-      <InfoBox size="large" style={{ marginBottom: "1.5rem" }}>
+      <InfoBox size="large" style={{ marginBottom: "2rem" }}>
         <h5 style={{ color: "#ffe066" }}>Previous Projects</h5>
         <div
           className="hover-effect"
@@ -226,11 +216,28 @@ function HomePageMobile({ aboutMeArr }) {
               />
             </a>
           </InfoBox>
+          <InfoBox
+            size="small"
+            className="info-box"
+            style={{ textAlign: "center" }}
+          >
+            <a
+              href="/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              Or lets make something together
+              <FiExternalLink style={{ color: accent }} size={18} />
+            </a>
+          </InfoBox>
         </div>
       </InfoBox>
 
       {/* Photos Section */}
-      <Photos />
+      <InfoBox>
+        <Photos />
+      </InfoBox>
     </div>
   );
 }

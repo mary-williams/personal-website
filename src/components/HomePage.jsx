@@ -57,7 +57,8 @@ function HomePage() {
             </h5>
             <i>
               {" "}
-              I get excited about new personal projects and currently spend my time between these:{" "}
+              I get excited about new personal projects and currently spend my
+              time between these:{" "}
             </i>
             <div className="row g-3 mt-1 current-work">
               <div className="col-md-6 col-12">
@@ -78,8 +79,8 @@ function HomePage() {
                     <p style={{ fontSize: "17px" }}>
                       A full stack web app that allows users to upload, delete,
                       browse, and tag photos. Users can search photos based on
-                      tags and view photos in a slideshow. Currently being Implemented
-                      with React and Flask.{" "}
+                      tags and view photos in a slideshow. Currently being
+                      Implemented with React and Flask.{" "}
                     </p>
                   }
                 </InfoBox>
@@ -102,8 +103,8 @@ function HomePage() {
                     rel="noopener noreferrer"
                     className="contact-link"
                   >
-                    Check out my github
-                    <FiExternalLink style={{ color: accent }} size={18} />
+                    Check Out My Github
+                    <FiExternalLink style={{ color: accent }} size={25} />
                   </a>
                 </InfoBox>
                 <InfoBox
@@ -117,11 +118,11 @@ function HomePage() {
                     rel="noopener noreferrer"
                     className="contact-link"
                   >
-                    Or my resume
+                    Or Check Out My Resume
                     <FiExternalLink
                       style={{ color: accent }}
                       className="external-icon"
-                      size={18}
+                      size={25}
                     />
                   </a>
                 </InfoBox>
@@ -136,19 +137,26 @@ function HomePage() {
                     rel="noopener noreferrer"
                     className="contact-link"
                   >
-                    Or lets make something together
+                    Or Lets Make Something New Together
                     <FiExternalLink
                       style={{ color: accent }}
                       className="external-icon"
-                      size={18}
+                      size={25}
                     />
                   </a>
                 </InfoBox>
               </div>
             </div>
-            <div style={{ marginTop: "2.75rem", marginBottom: "2rem", display: "flex", justifyContent: "center"}}>
+            <div
+              style={{
+                marginTop: "2.75rem",
+                marginBottom: "2rem",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <InfoBox size="small">
-                <Photos/>
+                <Photos />
               </InfoBox>
             </div>
           </InfoBox>

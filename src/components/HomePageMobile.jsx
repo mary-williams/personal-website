@@ -152,15 +152,15 @@ function HomePageMobile({ aboutMeArr }) {
           I get excited about new personal projects and currently spend my time
           between these:
         </i>
-        <div className="current-work mt-2">
-          <InfoBox size="medium" header="Book Social App" marginBottom="1rem">
+        <div style={{ marginTop: "1rem"}} className="current-work mt-2">
+          <InfoBox size="medium" header="Book Social App">
             <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
               Redesigning the popular reading app Goodreads with a modern
               interface. Creating new features like labeling books as physically
               owned, so users can borrow amongst themselves.
             </p>
           </InfoBox>
-          <InfoBox size="medium" header="Photo Web App" marginBottom="1rem">
+          <InfoBox size="medium" header="Photo Web App">
             <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
               A web app that supports multiple users in uploading, deleting,
               browsing, and tagging photos. Users can search photos based on
@@ -178,8 +178,8 @@ function HomePageMobile({ aboutMeArr }) {
           style={{
             display: "flex",
             flexDirection: "column",
-            gap: "1rem",
-            marginTop: "1rem",
+            gap: ".5rem",
+            marginTop: ".5rem",
           }}
         >
           <InfoBox

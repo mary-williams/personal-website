@@ -152,7 +152,10 @@ function HomePageMobile({ aboutMeArr }) {
           I get excited about new personal projects and currently spend my time
           between these:
         </i>
-        <div style={{ marginTop: "1rem"}} className="current-work mt-2">
+        <div
+          style={{ marginTop: "1rem", gap: ".5rem" }}
+          className="current-work mt-2"
+        >
           <InfoBox size="medium" header="Book Social App">
             <p style={{ fontSize: "16px", marginBottom: "1.5rem" }}>
               Redesigning the popular reading app Goodreads with a modern
